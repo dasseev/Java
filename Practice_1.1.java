@@ -10,6 +10,7 @@ public class Greeting {
         
         System.out.println("Привет, " + name + "!");
         
-        scanner.close(); /
+        scanner.close(); 
     }
+
 }
