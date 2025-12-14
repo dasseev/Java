@@ -1,4 +1,4 @@
-// Пример соблюдения принципа подстановки Лисков (LSP)
+// Пример соблюдения принципа подстановки Лисков
 abstract class Bird {
     public abstract void move();
 }
@@ -29,4 +29,5 @@ public class LiskovExample {
         handler.makeBirdMove(new Sparrow());  // Воробей летит
         handler.makeBirdMove(new Penguin());  // Пингвин плывёт
     }
+
 }
